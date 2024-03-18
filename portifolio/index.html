@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio Jorge Willian</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <nav class="container navbar" data-menu="suave">
+      <a href="#home" class="logo">‹JW/›</a>
+      <button data-menu="button" aria-controls="menu"></button>
+      <ul data-menu="list" id="menu">
+        <a href="#home">
+          <li>Home</li>
+        </a>
+        <a href="#sobre">
+          <li>Sobre</li>
+        </a>
+        <a href="#skills">
+          <li>Skills</li>
+        </a>
+        <a href="#projetos">
+          <li>Projetos</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container conteudo-home">
+        <div class="apresentacao">
+          <div class="quem-sou">
+            <p>Olá, eu sou o</p>
+            <div id="meu-nome-input">
+              <span class="meu-nome"></span>
+              <span class="input"></span>
+            </div>
+            <p>Desenvolvedor Front-end</p>
+          </div>
+          <div class="botoes">
+            <a href="#projetos" id="projetos-button" class="hover-float">Projetos</a>
+
+            <div class="botoes-sociais">
+              <a href="https://github.com/JorgeWbm" target="_blank" class="hover-float"><img src="./assets/Github.svg" alt=""></a>
+              <a href="https://www.linkedin.com/in/jorge-willian-91ba07267/" target="_blank" class="hover-float"><img src="./assets/LinkedIn.svg" alt=""></a>
+              <a href="mailto:jorgewillianbm@gmail.com" target="_blank" class="hover-float"><img src="./assets/Gmail.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="imagem-person">
+          <img src="./assets/person.gif">
+        </div>
+        <a href="#sobre" class="botao-scroll">
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
+        </a>
+      </div>
+
+      <img src="./assets/detalhe-direito-home.svg" id="detalhe-direto-home" class="efeito">
+      <img src="./assets/detalhe-inferior-home.svg" id="detalhe-inferior-home" class="efeito">
+      <img src="./assets/detalhe-superior-home.svg" id="detalhe-superior-home" class="efeito">
+
+      <img src="./assets/detalhe-rh-inferior.svg" id="detalhe-rh-inferior" class="efeito">
+      <img src="./assets/detalhe-rh-superior.svg" id="detalhe-rh-superior" class="efeito">
+
+    </section>
+
+    <section id="sobre">
+      <div class="container conteudo-sobre">
+        <div class="background-foto">
+          <div class="container-foto">
+            <img src="./assets/eu.png" alt="" class="eu">
+          </div>
+          <div class="background">
+            <img src="./assets/detalhe-sobre.svg" id="detalhe-sobre" class="efeito-foto efeito">
+          </div>
+        </div>
+
+        <div class="sobre-mim">
+          <h2 class="titulo">Sobre mim</h2>
+          <p>Tenho como objetivo aplicar minha formação de analista e desenvolvedor de sistemas na criação de soluções testáveis e de fácil entendimento. E, também, desenvolver minha carreira sob a supervisão e o estímulo da empresa, me comprometendo com as boas práticas e a inovação.
+          </p>
+          <div class="botoes-sobre-mim">
+            <a class="hover-float" href="./assets/curriculo.pdf" download><img src="./assets/nuvem.png" alt="" >Curriculo</a>
+            <a href="https://www.linkedin.com/in/jorge-willian-91ba07267/" target="_blank" class="hover-float"><img src="./assets/icon-linkedin.svg" alt="">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container conteudo-skills">
+
+        <div class="skills-icons">
+          <h2 class="titulo">Skills</h2>
+          <div id="imagem-icons">
+            <div>
+              <div class="icons" id="html"></div>
+              <div class="icons" id="css"></div>
+              <div class="icons" id="js"></div>
+            </div>
+            <div>
+              <div class="icons" id="java"></div>
+              <div class="icons" id="mysql"></div>
+              <div class="icons" id="git"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-text">
+          <span id="instrucao">*confira o meu conhecimento sobre determinada skill ao passar por ela*</span>
+
+          <div class="hide container-barra">
+            <h3>HTML</h3>
+            <div class="barra-borda">
+              <div class="barra-progresso progresso-html"></div>
+            </div>
+          </div>
+
+          <div class="hide container-barra">
+            <h3>CSS</h3>
+            <div class="barra-borda">
+              <div class="barra-progresso progresso-css"></div>
+            </div>
+          </div>
+
+          <div class="hide container-barra">
+            <h3>JS</h3>
+            <div class="barra-borda">
+              <div class="barra-progresso progresso-js"></div>
+            </div>
+          </div>
+
+          <div class="hide container-barra">
+            <h3>JAVA</h3>
+            <div class="barra-borda">
+              <div class="barra-progresso progresso-java"></div>
+            </div>
+          </div>
+
+          <div class="hide container-barra">
+            <h3>MYSQL</h3>
+            <div class="barra-borda">
+              <div class="barra-progresso progresso-mysql"></div>
+            </div>
+          </div>
+
+          <div class="hide container-barra">
+            <h3>GIT</h3>
+            <div class="barra-borda">
+              <div class="barra-progresso progresso-git"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img src="./assets/detalhe-inferior-skills.svg" id="detalhe-inferior-skills" class="efeito">
+      <img src="./assets/detalhe-esquerdo-skills.svg" id="detalhe-esquerdo-skills" class="efeito">
+      
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-flex">
+        <p>jorgewillianbm@gmail.com</p>
+        <p>Desenvolvido por <span>Jorge Willian</span></p>
+        <p>Todos os direitos reservados</p>
+      </div>
+      <div class="detalhe-footer"></div>
+    </footer>
+
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
